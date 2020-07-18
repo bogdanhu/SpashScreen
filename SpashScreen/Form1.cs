@@ -21,8 +21,8 @@ namespace SpashScreen
             options.RightFooter = "Right footer";
             options.LoadingIndicatorType = FluentLoadingIndicatorType.Ring;
             options.Opacity = 130;
-            // options.OpacityColor = Color.DarkGreen;
-            options.OpacityColor = Color.SeaGreen;
+            options.OpacityColor = Color.DarkGreen;
+            //options.OpacityColor = Color.SeaGreen;
             SplashScreenManager.ShowFluentSplashScreen(options, useFadeIn:true,useFadeOut:true) ;
             System.Threading.Thread.Sleep(2000);
             InitializeComponent();
